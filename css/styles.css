@@ -51,6 +51,10 @@ body {
 .menu-item .menu-item-link:active {
   color: var(--logo-color);
 }
+.menu-item .menu-item-link :hover,
+.menu-item .menu-item-link :focus {
+  color: #404bbf;
+}
 .contacts {
   font-style: normal;
   font-size: 16px;
@@ -59,10 +63,10 @@ body {
   color: var(--second-color);
 }
 .mailto-link {
-  color: var(--brend-color);
+  color: var(--second-color);
 }
 .phone-namber-link {
-  color: var(--brend-color);
+  color: var(--second-color);
 }
 .mailto-link:hover,
 .mailto-link:focus {
