@@ -51,8 +51,12 @@ body {
 .menu-item .menu-item-link:active {
   color: var(--logo-color);
 }
-.menu-item .menu-item-link :hover,
-.menu-item .menu-item-link :focus {
+.menu-item .menu-item-link-first:hover,
+.menu-item .menu-item-link-first:focus {
+  color: #404bbf;
+}
+.menu-item-link-first:hover,
+.menu-item-link-first :focus {
   color: #404bbf;
 }
 .contacts {
@@ -140,7 +144,7 @@ body {
 .subject {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--brend-color);
 }
