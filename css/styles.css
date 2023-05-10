@@ -41,7 +41,7 @@ body {
 .menu-list {
   font-style: normal;
 }
-.menu-item-link {
+.menu-item-link .menu-item-link-first {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -51,10 +51,7 @@ body {
 .menu-item .menu-item-link:active {
   color: var(--logo-color);
 }
-.menu-item .menu-item-link-first:hover,
-.menu-item .menu-item-link-first:focus {
-  color: #404bbf;
-}
+
 .menu-item-link-first:hover,
 .menu-item-link-first :focus {
   color: #404bbf;
