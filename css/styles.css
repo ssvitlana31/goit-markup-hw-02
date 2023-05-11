@@ -64,18 +64,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-color);
 }
-.mailto-link {
+.contacts-list-link {
   color: var(--second-color);
 }
-.phone-namber-link {
-  color: var(--second-color);
-}
-.mailto-link:hover,
-.mailto-link:focus {
-  color: #404bbf;
-}
-.phone-namber-link:hover,
-.phone-namber-link:focus {
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: #404bbf;
 }
 
